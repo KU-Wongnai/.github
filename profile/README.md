@@ -2,6 +2,19 @@
 
 Will update more information later.
 
+| Service                    | Language/Tool      | Description                                                                                            |
+| -------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------|
+| [frontend]()               | Next.js            | Provides a user interface for users to interact with our microservices.                                |
+| [user-service]()           | Laravel            | Provides authentication, authorization, and manages user profile.                                      |
+| [restaurant-service]()     | Java/Spring        | Manage everything related to restaurant.                                                               |
+| [review-service]()         | Java/Spring        | Handle user's review.                                                                                  |
+| [order-service]()          | Java/Spring        | Handle cart, order, delivery.                                                                          |
+| [payment-service]()        | Node.js            | Charges the given credit card info using [Omise](https://opn.ooo) and also storing customer info       |
+| [notification-service]()   | Laravel            | Handle send notification via email and in-app                                                          |
+| [file-storage]()           | Laravel            | Handle storing file.                                                                                   |
+| [chat-service]()           | Firebase           | Real-time chat for user and rider to communicate.                                                      |
+| [gateway]()                | Kong               | Gateway that connecting each services.                                                                 |
+
 ## ✨ Our Team
 
 Thank you to these wonderful people for making this possible!
