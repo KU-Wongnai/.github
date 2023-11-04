@@ -2,18 +2,18 @@
 
 Will update more information later.
 
-| Service                    | Language/Tool      | Description                                                                                            |
-| -------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------|
-| [frontend]()               | Next.js            | Provides a user interface for users to interact with our microservices.                                |
-| [user-service]()           | Laravel            | Provides authentication, authorization, and manages user profile.                                      |
-| [restaurant-service]()     | Java/Spring        | Manage everything related to restaurant.                                                               |
-| [review-service]()         | Java/Spring        | Handle user's review.                                                                                  |
-| [order-service]()          | Java/Spring        | Handle cart, order, delivery.                                                                          |
-| [payment-service]()        | Node.js            | Charges the given credit card info using [Omise](https://opn.ooo) and also storing customer info       |
-| [notification-service]()   | Laravel            | Handle send notification via email and in-app                                                          |
-| [file-storage]()           | Laravel            | Handle storing file.                                                                                   |
-| [chat-service]()           | Firebase           | Real-time chat for user and rider to communicate.                                                      |
-| [gateway]()                | Kong               | Gateway that connecting each services.                                                                 |
+| Service                                         | Language/Tool      | Description                                                                                            |
+| --------------------------                      | ------------------ | -------------------------------------------------------------------------------------------------------|
+| [frontend](#front-end)                          | Next.js            | Provides a user interface for users to interact with our microservices.                                |
+| [user-service](#user-service)                   | Laravel            | Provides authentication, authorization, and manages user profile.                                     |
+| [restaurant-service](#restaurant-service)       | Java/Spring        | Manage everything related to restaurant.                                                               |
+| [review-service](#review-service)               | Java/Spring        | Handle user's review.                                                                                  |
+| [order-service](#order-service)                 | Java/Spring        | Handle cart, order, delivery.                                                                          |
+| [payment-service](#payment-service)             | Node.js            | Charges the given credit card info using [Omise](https://opn.ooo) and also storing customer info           |
+| [notification-service](#notification-service)   | Laravel            | Handle send notification via email and in-app                                                          |
+| [file-storage](#file-storage)                   | Laravel            | Handle storing file.                                                                                   |
+| [chat-service](#chat-service)                   | Firebase           | Real-time chat for user and rider to communicate.                                                            |
+| [gateway](#gateway)                             | Kong               | Gateway that connecting each services.                                                                 |
 
 ## ✨ Our Team
 
@@ -39,3 +39,15 @@ Thank you to these wonderful people for making this possible!
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[frontend]: https://github.com/KU-Wongnai/frontend
+[user-service]: https://github.com/KU-Wongnai/user-service
+[restaurant-service]: https://github.com/KU-Wongnai/restaurant-service
+[review-service]: https://github.com/KU-Wongnai/review-service
+[order-service]: https://github.com/KU-Wongnai/order-service
+[payment-service]: https://github.com/KU-Wongnai/payment-service
+[notification-service]: https://github.com/KU-Wongnai/notification-service
+[file-storage]: https://github.com/KU-Wongnai/file-storage
+[chat-service]: https://github.com/KU-Wongnai/chat-service
+[gateway]: https://github.com/KU-Wongnai/gateway
